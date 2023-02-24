@@ -55,7 +55,7 @@ const CustomRows = () => {
                 <Col xs={5}>
                   <button
                     type="button"
-                    className="js-programmatic-enable btn btn-primary w-100"
+                    className="js-programmatic-enable btn btn-secondary w-100"
                   >
                     Deposit
                   </button>
@@ -64,9 +64,9 @@ const CustomRows = () => {
                 <Col xs={5}>
                   <button
                     type="button"
-                    className="js-programmatic-disable btn btn-secondary w-100"
+                    className="js-programmatic-disable btn btn-primary w-100"
                   >
-                    WithDraw
+                    Withdraw
                   </button>
                 </Col>
               </Row>
@@ -97,9 +97,9 @@ const CustomRows = () => {
       </Row>
       {VaultsTableData.map((item, key) => (
         <Row
-          className="rowCard align-middle text-left mb-2 "
+          className="rowCard align-middle text-left mb-2 mt-4"
           key={key}
-          style={{ lineHeight: "3.5" }}
+          style={{ lineHeight: "5" }}
           onClick={toggleVaultCanvas}
           role="button"
         >
