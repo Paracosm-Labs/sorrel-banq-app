@@ -20,15 +20,6 @@ import CustomRows from "./CustomRows";
 
 import rightArrow from "../../assets/images/rightArrow.svg";
 const Vaults = () => {
-  const [dissortBy, setdissortBy] = useState(null);
-  const dissortbyname = [
-    {
-      options: [
-        { label: "Alabama", value: "AL" },
-        { label: "Madrid", value: "MA" },
-      ],
-    },
-  ];
   const [customActiveTab, setcustomActiveTab] = useState("1");
   const toggleCustom = (tab) => {
     if (customActiveTab !== tab) {
@@ -90,8 +81,8 @@ const Vaults = () => {
                 </TabPane>
                 <TabPane tabId="2">
                   <div className="d-flex">
-                    <div className="flex-grow-1 ms-2">
-                      Sorry Nothing to show!
+                    <div className="flex-grow-1 ms-2 mt-5 text-center">
+                      Coming Soon!
                     </div>
                   </div>
                 </TabPane>

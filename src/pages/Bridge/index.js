@@ -13,8 +13,29 @@ const Bridge = () => {
   const dissortbyname = [
     {
       options: [
-        { label: "Alabama", value: "AL" },
-        { label: "Madrid", value: "MA" },
+        { label: "Trinidad & Tobago", value: "gTTD" },
+        { label: "Bahamas", value: "gBSD" },
+        { label: "Barbados", value: "gBBD" },
+        { label: "Cayman Islands", value: "gKYD" },
+        { label: "Cuba", value: "gCOP" },
+        { label: "Eastern Caribbean", value: "gXCD" },
+        { label: "Haiti", value: "gHTG" },
+        { label: "Dominica", value: "gDOP" },
+        { label: "Jamaica", value: "gJMD" },
+      ],
+    },
+  ];
+  const [dissortrampBy, setdissortrampBy] = useState(null);
+  const dissortrampbyname = [
+    {
+      options: [
+        { label: "Sorrel P2P - Coming Soon", value: "1" },
+        { label: "Western Union", value: "2" },
+        { label: "Moneygram", value: "3" },
+        { label: "RIA", value: "4" },
+        { label: "Local Bank Transfer", value: "5" },
+        { label: "Mastercard", value: "6" },
+        { label: "Visa", value: "7" },
       ],
     },
   ];
@@ -38,12 +59,12 @@ const Bridge = () => {
                 className="d-flex align-items-center bg-gradient p-3 offcanvas-header-dark"
                 toggle={toggleExchangeLoadingCanvas}
               >
-                <span className="m-0 me-2 text-white">New Savings Account</span>
+                <span className="m-0 me-2 text-white">P2P Sources</span>
               </OffcanvasHeader>
               <OffcanvasBody className="p-4">
                 <SimpleBar className="h-100">
                   <div>
-                    <h5 className="card-title ">Loading</h5>
+                    <h5 className="card-title ">Loading...</h5>
                   </div>
                 </SimpleBar>
               </OffcanvasBody>
@@ -95,11 +116,11 @@ const Bridge = () => {
               <h5 className="card-title">Destination</h5>
               <div className="vstack gap-3 mt-2 mb-2">
                 <Select
-                  value={dissortBy}
+                  value={dissortrampBy}
                   onChange={(sortBy) => {
-                    setdissortBy(sortBy);
+                    setdissortrampBy(sortBy);
                   }}
-                  options={dissortbyname}
+                  options={dissortrampbyname}
                   className="js-example-disabled"
                 />
               </div>

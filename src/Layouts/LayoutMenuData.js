@@ -156,7 +156,7 @@ const Navdata = () => {
 
   const menuItems = [
     {
-      label: "Menu",
+      label: "",
       isHeader: true,
     },
     {

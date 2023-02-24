@@ -69,18 +69,18 @@ const CustomRows = ({ key, item }) => {
                 <Col xs={5}>
                   <button
                     type="button"
-                    className="js-programmatic-enable btn btn-primary w-100"
+                    className="js-programmatic-enable btn btn-secondary w-100"
                   >
-                    Deposit
+                    Stake
                   </button>
                 </Col>
                 <Col xs={2}></Col>
                 <Col xs={5}>
                   <button
                     type="button"
-                    className="js-programmatic-disable btn btn-secondary w-100"
+                    className="js-programmatic-disable btn btn-primary w-100"
                   >
-                    WithDraw
+                    Cancel
                   </button>
                 </Col>
               </Row>
@@ -92,7 +92,7 @@ const CustomRows = ({ key, item }) => {
       {/* ---------------Main Content------------ */}
 
       <Row
-        className="rowCard text-left mb-2 "
+        className="rowCard text-left mb-2 mt-4"
         style={{ lineHeight: "5" }}
         onClick={toggleVaultCanvas}
       >

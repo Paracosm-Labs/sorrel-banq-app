@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import SimpleBar from "simplebar-react";
 //import logo
 import logoSm from "../assets/images/navbarBrand/Logo01-sm.png";
-import logoDark from "../assets/images/logo-light.png";
+import logoDark from "../assets/images/navbarBrand/Logo01-sm.png";
 import logoLight from "../assets/images/navbarBrand/Logo01-sm.png";
 
 //Import Components
@@ -56,7 +56,8 @@ const Sidebar = () => {
               <img src={logoSm} alt="" height="45" />
             </span>
             <span className="logo-lg ">
-              <img src={logoLight} alt="" height="70" />
+              <img src={logoLight} alt="" height="60" />
+              <span className="m-3 fs-5">Sorrel Banq</span>
             </span>
           </Link>
           <button

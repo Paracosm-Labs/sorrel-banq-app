@@ -6,7 +6,7 @@ import { AccountsTableData } from "../../common/data";
 const CustomRows = () => {
   return (
     <React.Fragment>
-      <Row className="align-middle text-left" style={{ textAlign: "left" }}>
+      <Row className="align-middle text-left mb-4" style={{ textAlign: "left" }}>
         <Col xs={6}>
           <Row>
             <Col xs={4}>Account</Col>

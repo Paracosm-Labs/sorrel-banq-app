@@ -123,22 +123,6 @@ const Header = ({ headerClass }) => {
                 </div>
                 {/* NotificationDropdown */}
                 <NotificationDropdown />
-                <div className="ms-1 header-item d-sm-flex">
-                  <button
-                    type="button"
-                    className="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle light-dark-mode"
-                  >
-                    <i className="fa-thin fa-gear fs-18"></i>
-                  </button>
-                </div>
-                <div className="ms-1 header-item d-sm-flex">
-                  <button
-                    type="button"
-                    className="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle light-dark-mode"
-                  >
-                    <i className="fa-thin fa-arrow-right-from-bracket fs-18"></i>
-                  </button>
-                </div>
 
                 {/* ProfileDropdown */}
                 <ProfileDropdown />

@@ -19,8 +19,15 @@ const Exchange = () => {
   const dissortbyname = [
     {
       options: [
-        { label: "Alabama", value: "AL" },
-        { label: "Madrid", value: "MA" },
+        { label: "Trinidad & Tobago Dollar", value: "gTTD" },
+        { label: "Bahamas Dollar", value: "gBSD" },
+        { label: "Barbados Dollar", value: "gBBD" },
+        { label: "Cayman Islands Dollar", value: "gKYD" },
+        { label: "Cuban Peso", value: "gCOP" },
+        { label: "Eastern Caribbean Dollar", value: "gXCD" },
+        { label: "Haitian Gourde", value: "gHTG" },
+        { label: "Dominican Peso", value: "gDOP" },
+        { label: "Jamaican Dollar", value: "gJMD" },
       ],
     },
   ];
@@ -207,18 +214,18 @@ const Exchange = () => {
           <CardBody>
             <Row className="align-items-end g-0 margin1rem">
               <Col xs={4}>
-                <p className="mb-1 mt-3 sizemd">1gGBP</p>
+                <p className="mb-1 mt-3 sizemd">1 gGBP</p>
               </Col>
               <Col xs={4}>
                 <i className="fa-light fa-arrow-right fs-20"></i>
               </Col>
               <Col xs={4}>
-                <p className="mb-1 mt-3 sizemd">52,415 USDD</p>
+                <p className="mb-1 mt-3 sizemd">52,415 gTTD</p>
               </Col>
             </Row>
             <Row className="align-items-end g-0 margin1rem">
               <Col xs={12}>
-                <h5 className="mb-3 mt-3">Get</h5>
+                <h5 className="mb-3 mt-4">You Swap</h5>
               </Col>
             </Row>
             <Row className="align-items-end g-0 margin1rem">
@@ -242,7 +249,7 @@ const Exchange = () => {
             </Row>
             <Row className="align-items-end g-0 margin1rem">
               <Col xs={12}>
-                <h5 className="mb-3 mt-3">Pay</h5>
+                <h5 className="mb-3 mt-4">For</h5>
               </Col>
             </Row>
             <Row className="align-items-end g-0 margin1rem">

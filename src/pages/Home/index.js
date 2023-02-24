@@ -12,8 +12,15 @@ const Home = () => {
   const dissortbyname = [
     {
       options: [
-        { label: "Alabama", value: "AL" },
-        { label: "Madrid", value: "MA" },
+        { label: "Trinidad & Tobago", value: "gTTD" },
+        { label: "Bahamas", value: "gBSD" },
+        { label: "Barbados", value: "gBBD" },
+        { label: "Cayman Islands", value: "gKYD" },
+        { label: "Cuba", value: "gCOP" },
+        { label: "Eastern Caribbean", value: "gXCD" },
+        { label: "Haiti", value: "gHTG" },
+        { label: "Dominica", value: "gDOP" },
+        { label: "Jamaica", value: "gJMD" },
       ],
     },
   ];
@@ -22,8 +29,8 @@ const Home = () => {
     <React.Fragment>
       <div className="page-content">
         <Container fluid>
-          <Row>
-            <Col xs={12}>
+          <Row className="justify-content-center">
+            <Col xs={8}>
               <div className="jumbotron">
                 <h4 className="fs-16 mb-1">Getting Started</h4>
                 <p className="lead">What can you do with Sorrel.</p>
@@ -80,12 +87,12 @@ const Home = () => {
                       </div>
                     </div>
                     {/*<img
-                      className="jumbotron-sm w-100"
+                      className="jumbotron-sm w-80"
                       src={jumbotronSm}
                       alt=""
                     />
                     <img
-                      className="jumbotron-lg w-100"
+                      className="jumbotron-lg w-80"
                       src={jumbotron}
                       alt=""
   />*/}
@@ -95,7 +102,7 @@ const Home = () => {
             </Col>
           </Row>
 
-          <Row
+          <Row className="mt-1"
             style={{
               display: "flex",
               justifyContent: "center",

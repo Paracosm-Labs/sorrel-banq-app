@@ -8,7 +8,7 @@ const VaultsTableData = [
   {
     id: 1,
     label: "BTC",
-    imgPath: TRX,
+    imgPath: BTC,
     apr: "2.69%",
     myDeposit: "$44,452,22",
   },
@@ -28,27 +28,6 @@ const VaultsTableData = [
   },
   {
     id: 4,
-    label: "USSD",
-    imgPath: USSD,
-    apr: "2.69%",
-    myDeposit: "$44,452,22",
-  },
-  {
-    id: 5,
-    label: "BTC",
-    imgPath: BTC,
-    apr: "2.69%",
-    myDeposit: "$44,452,22",
-  },
-  {
-    id: 6,
-    label: "BNB",
-    imgPath: BNB,
-    apr: "2.69%",
-    myDeposit: "$44,452,222",
-  },
-  {
-    id: 7,
     label: "USSD",
     imgPath: USSD,
     apr: "2.69%",

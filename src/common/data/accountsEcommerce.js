@@ -6,7 +6,7 @@ import UnitedKingdom from "../../assets/images/united-kingdom.svg";
 const ecomWidgets = [
   {
     id: 1,
-    label: "US Decentralized Dollar",
+    label: "USDD",
     imgPath: dollar,
     badge: "ri-arrow-right-up-line",
     badgeClass: "success",
@@ -21,14 +21,14 @@ const ecomWidgets = [
     chartsColor: "#13c56b",
     series: [
       {
-        name: "Dash",
+        name: "USDD",
         data: [24, 68, 39, 86, 29, 42, 11, 58],
       },
     ],
   },
   {
     id: 2,
-    label: "Euro",
+    label: "gEUR",
     imgPath: europeanUnion,
     badge: "ri-arrow-right-down-line",
     badgeClass: "danger",
@@ -51,7 +51,7 @@ const ecomWidgets = [
   },
   {
     id: 3,
-    label: "British Pound",
+    label: "gGBP",
     imgPath: UnitedKingdom,
     badge: "ri-arrow-right-up-line",
     badgeClass: "success",
@@ -73,7 +73,7 @@ const ecomWidgets = [
   },
   {
     id: 4,
-    label: "My Trinidad & Tobago Dollar",
+    label: "gTTD",
     imgPath: Trinidad,
     badgeClass: "muted",
     percentage: "+0.00",

@@ -79,8 +79,8 @@ const Addon = () => {
                 </TabPane>
                 <TabPane tabId="2">
                   <div className="d-flex">
-                    <div className="flex-grow-1 ms-2">
-                      Sorry Nothing to show!
+                    <div className="flex-grow-1 ms-2 text-center mt-5">
+                      Coming Soon!
                     </div>
                   </div>
                 </TabPane>

@@ -13,8 +13,15 @@ const AccountSection = () => {
   const dissortbyname = [
     {
       options: [
-        { label: "Alabama", value: "AL" },
-        { label: "Madrid", value: "MA" },
+        { label: "Trinidad & Tobago", value: "gTTD" },
+        { label: "Bahamas", value: "gBSD" },
+        { label: "Barbados", value: "gBBD" },
+        { label: "Cayman Islands", value: "gKYD" },
+        { label: "Cuba", value: "gCOP" },
+        { label: "Eastern Caribbean", value: "gXCD" },
+        { label: "Haiti", value: "gHTG" },
+        { label: "Dominica", value: "gDOP" },
+        { label: "Jamaica", value: "gJMD" },
       ],
     },
   ];
@@ -79,7 +86,7 @@ const AccountSection = () => {
                   className="js-programmatic-disable btn btn-primary"
                   onClick={toggleAddAccountCanvas}
                 >
-                  Cancle
+                  Cancel
                 </button>
               </div>
             </SimpleBar>
@@ -228,7 +235,7 @@ const AccountSection = () => {
           </OffcanvasBody>
         </Offcanvas>
       </div>
-      <Row className="mb-1 pb-1">
+      <Row className="mb-4 pb-1">
         <Col md={12} lg={9}>
           <div className="d-flex align-items-center flex-row mb-2">
             <div className="flex-grow-1">
@@ -251,12 +258,12 @@ const AccountSection = () => {
               </form>
             </div>
           </div>
-          <div>
+          <div className="mt-4">
             <CustomRows />
           </div>
         </Col>
         <Col md={12} lg={3}>
-          <Card className="card-height-85" style={{ marginTop: "1.5rem" }}>
+          <Card className="card-height-100 px-3" style={{ marginTop: "0rem" }}>
             <CardHeader className="align-items-center d-flex">
               <h2 className="card-title mb-0 flex-grow-1 text-center">
                 Current Balance
@@ -274,7 +281,7 @@ const AccountSection = () => {
                   <button
                     type="button"
                     onClick={toggleDepositCanvas}
-                    className="btn btn-primary w-100"
+                    className="btn btn-secondary w-100"
                   >
                     Deposit
                   </button>
@@ -283,7 +290,7 @@ const AccountSection = () => {
                   <button
                     type="button"
                     onClick={toggleTransferCanvas}
-                    className="btn btn-secondary w-100"
+                    className="btn btn-primary w-100"
                   >
                     Transfer
                   </button>
