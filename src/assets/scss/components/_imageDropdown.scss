@@ -1,0 +1,96 @@
+.margin1rem{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+p.sizemd{
+    font-size: 1.03125rem;
+}
+
+.cardMargin{
+    margin-bottom: 1rem;
+}
+.customRow::-webkit-scrollbar {
+    display: none;
+}
+
+.rowCard{    
+    border-radius: 15px;
+    border: 1px solid #434968;
+}
+.rowCard:hover{
+    background-color: #1d1b2e;
+    color: aliceblue;
+    opacity: .7;
+}
+
+
+
+@media (min-width: 768px)  { 
+    
+    #jumbotron .jumbotron-sm {
+        display:none;
+    }
+    #jumbotron .jumbotron-lg {
+        display:block;
+    }
+    #jumbotron .jumbotron-xl {
+        display:none;
+    }
+    .balance{
+        display: block;
+    }
+    .ham-sm{
+        display:none;
+    }
+    .ham-lg{
+        display: inherit;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+    
+    #jumbotron .jumbotron-sm {
+        display:block;
+    }
+    #jumbotron .jumbotron-lg {
+        display:none;
+    }
+    #jumbotron .jumbotron-xl {
+        display:none;
+    }
+    .balance{
+        display: none;
+    }
+    .ham-sm{
+        display:inherit;
+    }
+    .ham-lg{
+        display: none;
+    }
+    .header-box{
+        border: 0px;
+      }
+ }
+ @media (min-width: 1200px)  { 
+    
+    #jumbotron .jumbotron-xl {
+        display:block;
+    }
+    #jumbotron .jumbotron-sm {
+        display:none;
+    }
+    #jumbotron .jumbotron-lg {
+        display:none;
+    }
+    .balance{
+        display: block;
+    }
+    .ham-sm{
+        display:none;
+    }
+    .ham-lg{
+        display: inherit;
+    }
+}
