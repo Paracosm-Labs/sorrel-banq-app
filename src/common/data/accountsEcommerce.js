@@ -44,7 +44,7 @@ const ecomWidgets = [
     chartsColor: "#13c56b",
     series: [
       {
-        name: "Dash",
+        name: "gEUR",
         data: [13, 76, 12, 85, 25, 60, 9, 54],
       },
     ],
@@ -66,7 +66,7 @@ const ecomWidgets = [
     chartsColor: "#13c56b",
     series: [
       {
-        name: "Neo",
+        name: "gGBP",
         data: [9, 66, 41, 89, 12, 36, 25, 54],
       },
     ],
@@ -87,7 +87,7 @@ const ecomWidgets = [
     chartsColor: "#ed5e5e",
     series: [
       {
-        name: "Binance",
+        name: "gTTD",
         data: [30, 58, 29, 89, 12, 36, 9, 54],
       },
     ],

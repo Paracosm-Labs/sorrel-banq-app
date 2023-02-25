@@ -15,7 +15,7 @@ const ProfileDropdown = () => {
     user: state.Profile.user,
   }));
 
-  const [userName, setUserName] = useState("Admin");
+  const [userName, setUserName] = useState("TL..x4k");
 
   useEffect(() => {
     if (sessionStorage.getItem("authUser")) {
@@ -48,36 +48,13 @@ const ProfileDropdown = () => {
                 {userName}
               </span>
               <span className="d-none d-xl-block ms-1 fs-12 text-muted user-name-sub-text">
-                Founder
+                Tron
               </span>
             </span>
           </span>
         </DropdownToggle>
         <DropdownMenu className="dropdown-menu-end">
-          <h6 className="dropdown-header">Welcome {userName}!</h6>
-          <DropdownItem>
-            <i className="mdi mdi-account-circle text-muted fs-16 align-middle me-1"></i>
-            <span className="align-middle">Profile</span>
-          </DropdownItem>
-          <DropdownItem>
-            <i className="mdi mdi-message-text-outline text-muted fs-16 align-middle me-1"></i>{" "}
-            <span className="align-middle">Messages</span>
-          </DropdownItem>
-          <DropdownItem>
-            <i className="mdi mdi-calendar-check-outline text-muted fs-16 align-middle me-1"></i>{" "}
-            <span className="align-middle">Taskboard</span>
-          </DropdownItem>
-          <DropdownItem>
-            <i className="mdi mdi-lifebuoy text-muted fs-16 align-middle me-1"></i>{" "}
-            <span className="align-middle">Help</span>
-          </DropdownItem>
-          <div className="dropdown-divider"></div>
-          <DropdownItem>
-            <i className="mdi mdi-wallet text-muted fs-16 align-middle me-1"></i>{" "}
-            <span className="align-middle">
-              Balance : <b>$5971.67</b>
-            </span>
-          </DropdownItem>
+
           <DropdownItem>
             <span className="badge bg-soft-success text-success mt-1 float-end">
               New
@@ -88,6 +65,10 @@ const ProfileDropdown = () => {
           <DropdownItem>
             <i className="mdi mdi-lock text-muted fs-16 align-middle me-1"></i>{" "}
             <span className="align-middle">Lock screen</span>
+          </DropdownItem>
+          <DropdownItem>
+            <i className="mdi mdi-lifebuoy text-muted fs-16 align-middle me-1"></i>{" "}
+            <span className="align-middle">Help</span>
           </DropdownItem>
           <DropdownItem>
             <i className="mdi mdi-logout text-muted fs-16 align-middle me-1"></i>{" "}
