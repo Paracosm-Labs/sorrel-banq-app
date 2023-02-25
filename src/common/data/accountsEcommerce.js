@@ -1,4 +1,4 @@
-import dollar from "../../assets/images/Dollar.svg";
+import dollar from "../../assets/images/dollar.svg";
 import europeanUnion from "../../assets/images/european-union.svg";
 import Trinidad from "../../assets/images/trinidad-and-tobago.svg";
 import UnitedKingdom from "../../assets/images/united-kingdom.svg";

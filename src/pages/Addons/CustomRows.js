@@ -96,9 +96,9 @@ const CustomRows = ({ key, item }) => {
         style={{ lineHeight: "5" }}
         onClick={toggleVaultCanvas}
       >
-        <Col xs={7}>
+        <Col xs={6}>
           <Row>
-            <Col xs={2} className="overflow-auto">
+            <Col xs={3} className="overflow-auto">
               <div className="d-flex gap-2 align-items-center">
                 <div className="flex-shrink-0">
                   <img
@@ -110,12 +110,12 @@ const CustomRows = ({ key, item }) => {
                 </div>
               </div>
             </Col>
-            <Col xs={10}>{item.label}</Col>
+            <Col xs={9}>{item.label}</Col>
           </Row>
         </Col>
-        <Col xs={5}>
+        <Col xs={6}>
           <Row>
-            <Col xs={12} className="overflow-auto">
+            <Col xs={12} className="overflow-auto text-center">
               <button
                 className="btn btn-link text-decoration-none"
                 onClick={handleClick}

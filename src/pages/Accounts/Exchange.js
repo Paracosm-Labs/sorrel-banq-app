@@ -7,7 +7,7 @@ import { components } from "react-select";
 //SimpleBar
 import SimpleBar from "simplebar-react";
 
-import dollar from "../../assets/images/Dollar.svg";
+import dollar from "../../assets/images/dollar.svg";
 import europeanUnion from "../../assets/images/european-union.svg";
 import Trinidad from "../../assets/images/trinidad-and-tobago.svg";
 

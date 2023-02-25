@@ -77,19 +77,19 @@ const CustomRows = () => {
 
       {/* ---------------Main Content------------ */}
       <Row
-        className="align-middle text-left"
+        className="align-middle text-left mt-4"
         style={{ textAlign: "left" }}
         role="button"
       >
-        <Col xs={7}>
+        <Col xs={6}>
           <Row>
             <Col xs={8} className="overflow-auto">
-              Assests
+              Assets
             </Col>
             <Col xs={4}>APR</Col>
           </Row>
         </Col>
-        <Col xs={5}>
+        <Col xs={6}>
           <Col xs={12} className="overflow-auto">
             My Deposit
           </Col>
@@ -103,7 +103,7 @@ const CustomRows = () => {
           onClick={toggleVaultCanvas}
           role="button"
         >
-          <Col xs={7}>
+          <Col xs={6}>
             <Row>
               <Col xs={8} className="overflow-auto">
                 <div className="d-flex gap-2 align-items-center">
@@ -120,7 +120,7 @@ const CustomRows = () => {
               <Col xs={4}>{item.apr}</Col>
             </Row>
           </Col>
-          <Col xs={5}>
+          <Col xs={6}>
             <Row>
               <Col xs={12} className="overflow-auto">
                 {item.myDeposit}
