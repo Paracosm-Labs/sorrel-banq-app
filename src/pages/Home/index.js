@@ -24,7 +24,7 @@ const Home = () => {
       ],
     },
   ];
-  document.title = "Home";
+  document.title = "Sorrel: Home";
   return (
     <React.Fragment>
       <div className="page-content">

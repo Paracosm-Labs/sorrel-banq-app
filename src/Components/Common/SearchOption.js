@@ -121,8 +121,8 @@ const SearchOption = () => {
                                     <img src={image2} className="me-3 rounded-circle avatar-xs"
                                         alt="user-pic" />
                                     <div className="flex-1">
-                                        <h6 className="m-0">Angela Bernier</h6>
-                                        <span className="fs-11 mb-0 text-muted">Manager</span>
+                                        <h6 className="m-0">Alex van Anders</h6>
+                                        <span className="fs-11 mb-0 text-muted">AIA Director of Growth & Sustainability</span>
                                     </div>
                                 </div>
                             </Link>
@@ -132,8 +132,8 @@ const SearchOption = () => {
                                     <img src={image3} className="me-3 rounded-circle avatar-xs"
                                         alt="user-pic" />
                                     <div className="flex-1">
-                                        <h6 className="m-0">David Grasso</h6>
-                                        <span className="fs-11 mb-0 text-muted">Web Designer</span>
+                                        <h6 className="m-0">Javier Reyes</h6>
+                                        <span className="fs-11 mb-0 text-muted">AIA Director of Entertainment</span>
                                     </div>
                                 </div>
                             </Link>
@@ -143,8 +143,8 @@ const SearchOption = () => {
                                     <img src={image5} className="me-3 rounded-circle avatar-xs"
                                         alt="user-pic" />
                                     <div className="flex-1">
-                                        <h6 className="m-0">Mike Bunch</h6>
-                                        <span className="fs-11 mb-0 text-muted">React Developer</span>
+                                        <h6 className="m-0">Lisa Davis</h6>
+                                        <span className="fs-11 mb-0 text-muted">AIA Director of Logistics</span>
                                     </div>
                                 </div>
                             </Link>

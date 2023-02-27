@@ -162,7 +162,7 @@ const NotificationDropdown = () => {
                     <div className="flex-1">
                       <Link to="#" className="stretched-link">
                         <h6 className="mt-0 mb-1 fs-13 fw-semibold">
-                          Angela Bernier
+                          Alex van Anders
                         </h6>
                       </Link>
                       <div className="fs-13 text-muted">
@@ -241,7 +241,7 @@ const NotificationDropdown = () => {
                     <div className="flex-1">
                       <Link to="#" className="stretched-link">
                         <h6 className="mt-0 mb-1 fs-13 fw-semibold">
-                          Maureen Gibson
+                          Michelle Ge
                         </h6>
                       </Link>
                       <div className="fs-13 text-muted">

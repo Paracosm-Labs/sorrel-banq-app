@@ -7,7 +7,7 @@ import AccountSection from "./AccountSection";
 import TrendSection from "./TrendSection";
 
 const Accounts = () => {
-  document.title = "Accounts";
+  document.title = "Sorrel: Accounts";
   return (
     <React.Fragment>
       <div className="page-content">

@@ -23,13 +23,13 @@ const Addon = () => {
     }
   };
 
-  document.title = "Addon";
+  document.title = "Sorrel: Addons";
   return (
     <React.Fragment>
       {/* --------------------Main Content------------------*/}
       <div className="page-content">
         <Container fluid>
-          <h4 className="fs-16 mb-2">Addon</h4>
+          <h4 className="fs-16 mb-2">Addons</h4>
           <p className="lead">
             Crowdfund and Activate new features to enhance your Sarrel
             Experience.

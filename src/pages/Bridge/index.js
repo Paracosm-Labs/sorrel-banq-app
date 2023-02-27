@@ -43,7 +43,7 @@ const Bridge = () => {
   const toggleExchangeLoadingCanvas = () => {
     setExchangeLoadingCanvas(!exchangeLoadingCanvas);
   };
-  document.title = "Bridge";
+  document.title = "Sorrel: Bridge";
   return (
     <React.Fragment>
       <div className="page-content">

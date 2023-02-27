@@ -27,7 +27,7 @@ const Vaults = () => {
     }
   };
 
-  document.title = "Vaults";
+  document.title = "Sorrel: Vaults";
   return (
     <React.Fragment>
       {/* --------------------Main Content------------------*/}
