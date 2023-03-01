@@ -116,17 +116,12 @@ const CustomRows = ({ key, item }) => {
         <Col xs={5}>
           <Row>
             <Col xs={12} className="overflow-auto text-center">
-              <button
-                className="btn btn-link text-decoration-none"
-                onClick={handleClick}
-                style={{ color: active ? "#13c56b" : "#c5c5c5" }}
-              >
 
                 <Row>
 
                   <Col xs={12}>
-                    <span className="progress mt-3 border border-success">
-                      <span className="progress-bar bg-success" style="height: 20px;" role="progressbar" aria-valuenow={9} aria-valuemin={0} aria-valuemax={100} style={{width:"9%"}}>
+                    <span className="progress mt-4 border border-success">
+                      <span className="progress-bar bg-success" style="height: 20px;" role="progressbar" aria-valuenow={3} aria-valuemin={0} aria-valuemax={100} style={{width:"3%"}}>
                       </span>
                     </span>
                   </Col>
@@ -135,10 +130,21 @@ const CustomRows = ({ key, item }) => {
                   </Col>
                 </Row>
 
-                <button 
-                  className="btn btn-secondary mt-2"
-                >{buttonText}</button>
-              </button>
+                <Row>
+
+                  <Col xs={12}>
+                    <button 
+                        className="btn btn-secondary mt-2"
+                      >{buttonText}</button>
+                  </Col>
+                  <Col xs={12}>            
+                      <a href={item.link}>
+                      <button 
+                        className="btn btn-sm btn-outline-primary mt-4"
+                      >Read More...</button>
+                      </a>
+                  </Col>
+                </Row>
             </Col>
           </Row>
         </Col>
