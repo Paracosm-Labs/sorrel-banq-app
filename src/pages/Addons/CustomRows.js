@@ -121,7 +121,7 @@ const CustomRows = ({ key, item }) => {
 
                   <Col xs={12}>
                     <span className="progress mt-4 border border-success">
-                      <span className="progress-bar bg-success" style="height: 20px;" role="progressbar" aria-valuenow={3} aria-valuemin={0} aria-valuemax={100} style={{width:"3%"}}>
+                      <span className="progress-bar bg-success" role="progressbar" aria-valuenow={3} aria-valuemin={0} aria-valuemax={100} style={{width:"3%"}}>
                       </span>
                     </span>
                   </Col>
