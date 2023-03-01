@@ -96,7 +96,7 @@ const CustomRows = ({ key, item }) => {
 
         onClick={toggleVaultCanvas}
       >
-        <Col xs={12} md={7} className="mt-4">
+        <Col xs={12} md={8} className="mt-4">
           <Row>
             <Col xs={2} className="overflow-auto">
               <div className="d-flex gap-2 align-items-center">
@@ -113,7 +113,7 @@ const CustomRows = ({ key, item }) => {
             <Col xs={10}><span className="text-justify"><h4>{item.label}</h4>{item.details}</span></Col>
           </Row>
         </Col>
-        <Col xs={12} md={5}>
+        <Col xs={12} md={4}>
           <Row>
             <Col xs={12} className="overflow-auto text-center">
 
