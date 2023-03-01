@@ -11,7 +11,7 @@ const CustomRows = () => {
           <Row>
             <Col xs={4}>Account</Col>
             <Col xs={3}>APR</Col>
-            <Col xs={4}>Amount</Col>
+            <Col xs={4}>Currencies</Col>
           </Row>
         </Col>
         <Col xs={6}>
@@ -42,9 +42,6 @@ const CustomRows = () => {
             <Row>
               <Col xs={6} className="overflow-auto">
                 <div className="d-flex gap-2 align-items-center">
-                  <div className="flex-shrink-0">
-                    <img src={item.imgPath} alt="" className="rounded-circle" />
-                  </div>
                   <div className="flex-grow-1">{item.savingBalance}</div>
                 </div>
               </Col>

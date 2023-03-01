@@ -273,10 +273,10 @@ const AccountSection = () => {
             <CardBody>
               <Row className="align-items-end g-0 margin1rem">
                 <Col xs={12}>
-                  <h2 className="mb-2 mt-2 text-center">$25,845</h2>
+                  <h2 className="mb-2 text-center border rounded-circle border-success border-4 p-5">$25,845</h2>
                 </Col>
               </Row>
-              <Row className="align-items-end g-0 m-2 pb-2">
+              <Row className="align-items-end g-0 mt-5 pb-2">
                 <Col xs={6} style={{ paddingRight: "2px" }}>
                   <button
                     type="button"

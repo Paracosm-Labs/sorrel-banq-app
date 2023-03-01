@@ -22,7 +22,7 @@ const Accounts = () => {
                 <TrendSection />
                 <Row>
                   <Col xl={8}>
-                    <Revenue />
+                    
                   </Col>
                   <Exchange />
                 </Row>
