@@ -80,7 +80,13 @@ const Addon = () => {
                 <TabPane tabId="2">
                   <div className="d-flex">
                     <div className="flex-grow-1 ms-2 text-center mt-5">
-                      Coming Soon!
+                      Have an idea for addon?
+                      <button
+                        type="button"
+                        className="btn btn-secondary"
+                      >
+                        Get Started
+                      </button>
                     </div>
                   </div>
                 </TabPane>

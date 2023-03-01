@@ -11,16 +11,16 @@ const CustomRows = ({ key, item }) => {
     setVaultCanvas(!addVaultCanvas);
   };
   const [active, setActive] = useState(false);
-  const [buttonText, setButtonText] = useState("Crowdfund this");
+  const [buttonText, setButtonText] = useState("Crowdfund This");
   function handleClick() {
     console.log("button clicked");
     if (buttonText === "Under Construction") {
       setButtonText("Activated");
       setActive(!active);
-    } else if (buttonText === "Crowdfund this") {
+    } else if (buttonText === "Crowdfund This") {
       setButtonText("Under Construction");
     } else {
-      setButtonText("Crowdfund this");
+      setButtonText("Crowdfund This");
       setActive(!active);
     }
   }
@@ -92,13 +92,13 @@ const CustomRows = ({ key, item }) => {
       {/* ---------------Main Content------------ */}
 
       <Row
-        className="rowCard text-left mb-2 mt-4"
-        style={{ lineHeight: "5" }}
+        className="rowCard text-left mb-2 mt-4 pb-4"
+
         onClick={toggleVaultCanvas}
       >
-        <Col xs={6}>
+        <Col xs={7} className="mt-4">
           <Row>
-            <Col xs={3} className="overflow-auto">
+            <Col xs={2} className="overflow-auto">
               <div className="d-flex gap-2 align-items-center">
                 <div className="flex-shrink-0">
                   <img
@@ -110,10 +110,10 @@ const CustomRows = ({ key, item }) => {
                 </div>
               </div>
             </Col>
-            <Col xs={9}>{item.label}</Col>
+            <Col xs={10}><span className="text-justify"><h4>{item.label}</h4>{item.details}</span></Col>
           </Row>
         </Col>
-        <Col xs={6}>
+        <Col xs={5}>
           <Row>
             <Col xs={12} className="overflow-auto text-center">
               <button
@@ -121,7 +121,23 @@ const CustomRows = ({ key, item }) => {
                 onClick={handleClick}
                 style={{ color: active ? "#13c56b" : "#c5c5c5" }}
               >
-                {buttonText}
+
+                <Row>
+
+                  <Col xs={12}>
+                    <span className="progress mt-3 border border-success">
+                      <span className="progress-bar bg-success" style="height: 20px;" role="progressbar" aria-valuenow={9} aria-valuemin={0} aria-valuemax={100} style={{width:"9%"}}>
+                      </span>
+                    </span>
+                  </Col>
+                  <Col xs={12}>
+                    <h5 className="mt-2">$9 of {item.fundGoal}</h5>
+                  </Col>
+                </Row>
+
+                <button 
+                  className="btn btn-secondary mt-2"
+                >{buttonText}</button>
               </button>
             </Col>
           </Row>
