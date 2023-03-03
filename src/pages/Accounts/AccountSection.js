@@ -142,7 +142,7 @@ const AccountSection = () => {
                   className="js-programmatic-disable btn btn-primary"
                   onClick={toggleDepositCanvas}
                 >
-                  Cancle
+                  Cancel
                 </button>
               </div>
             </SimpleBar>
@@ -228,7 +228,7 @@ const AccountSection = () => {
                   className="js-programmatic-disable btn btn-primary"
                   onClick={toggleTransferCanvas}
                 >
-                  Cancle
+                  Cancel
                 </button>
               </div>
             </SimpleBar>
@@ -290,7 +290,7 @@ const AccountSection = () => {
                   <button
                     type="button"
                     onClick={toggleTransferCanvas}
-                    className="btn btn-primary w-100"
+                    className="btn btn-soft-success w-100"
                   >
                     Transfer
                   </button>

@@ -5,7 +5,7 @@ const addOnsTableData = [
   {
     id: 1,
     label: "Sorrel Branch Lounges",
-    details: "Bringing your to the spatial internet, Sorrel Lounges are powered by WebXR, where our prospective and existing customers can explore our services in an immersive and interactive environment across all devices including VR. Sorrel lounges will be designed to provide an engaging and personalized experience for our customers along with an events space for anyone.",
+    details: "Sorrel Lounges are powered by WebXR, where our prospective and existing customers can explore our services in an immersive and interactive environment across all devices including VR. Sorrel lounges will be designed to provide an engaging and personalized experience for our customers along with a virtual events hosting space for anyone to use.",
     imgPath: logo,
     fundGoal: "$15,000",
     link: "https://docs.sorrelbanq.org/addons/core/[stub]",
