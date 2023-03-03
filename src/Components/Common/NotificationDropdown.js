@@ -112,7 +112,7 @@ const NotificationDropdown = () => {
 
           <TabContent activeTab={activeTab} className="border-1 border-secondary">
             <TabPane tabId="1" className="py-2 ps-2">
-              <SimpleBar style={{ maxHeight: "300px" }} className="pe-2">
+              <SimpleBar style={{ maxHeight: "300px", width:"380px"}} className="pe-2  border-1 border-secondary">
                 <div className="text-reset notification-item d-block dropdown-item position-relative">
                   <div className="d-flex">
                     <div className="avatar-xs me-3">
@@ -296,7 +296,7 @@ const NotificationDropdown = () => {
                     <div className="flex-1">
                       <Link to="#" className="stretched-link">
                         <h6 className="mt-0 mb-1 fs-13 fw-semibold">
-                          James Lemire
+                          Javier Reyes
                         </h6>
                       </Link>
                       <div className="fs-13 text-muted">
@@ -337,7 +337,7 @@ const NotificationDropdown = () => {
                     <div className="flex-1">
                       <Link to="#" className="stretched-link">
                         <h6 className="mt-0 mb-1 fs-13 fw-semibold">
-                          Angela Bernier
+                          Alex van Anders
                         </h6>
                       </Link>
                       <div className="fs-13 text-muted">
@@ -379,7 +379,7 @@ const NotificationDropdown = () => {
                     <div className="flex-1">
                       <Link to="#" className="stretched-link">
                         <h6 className="mt-0 mb-1 fs-13 fw-semibold">
-                          Kenneth Brown
+                          Marcus Toussaint
                         </h6>
                       </Link>
                       <div className="fs-13 text-muted">
