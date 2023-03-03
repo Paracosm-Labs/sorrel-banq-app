@@ -55,7 +55,7 @@ const NotificationDropdown = () => {
             3<span className="visually-hidden">unread messages</span>
           </span>
         </DropdownToggle>
-        <DropdownMenu className="dropdown-menu-lg dropdown-menu-end p-0">
+        <DropdownMenu className="dropdown-menu-lg dropdown-menu-end p-0  border-1 border-secondary" style={{ width:"380px" }}>
           <div className="dropdown-head  bg-pattern rounded-top">
             <div className="p-3">
               <Row className="align-items-center">
@@ -110,7 +110,7 @@ const NotificationDropdown = () => {
             </div>
           </div>
 
-          <TabContent activeTab={activeTab}>
+          <TabContent activeTab={activeTab} className="border-1 border-secondary">
             <TabPane tabId="1" className="py-2 ps-2">
               <SimpleBar style={{ maxHeight: "300px" }} className="pe-2">
                 <div className="text-reset notification-item d-block dropdown-item position-relative">
