@@ -118,7 +118,7 @@ const Header = ({ headerClass }) => {
                 <div className="balance">
                   <i className="fa-thin fa-wallet fs-18"></i>{" "}
                   <span className="">
-                    <b>&nbsp;$55,396,334</b>
+                    <b>&nbsp;$88,420,369</b>
                   </span>
                 </div>
                 {/* NotificationDropdown */}

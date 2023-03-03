@@ -7,14 +7,14 @@ const CustomRows = () => {
   return (
     <React.Fragment>
       <Row className="align-middle text-left mb-4" style={{ textAlign: "left" }}>
-        <Col xs={6}>
+        <Col xs={12} md={6}>
           <Row>
             <Col xs={4}>Account</Col>
             <Col xs={3}>APR</Col>
             <Col xs={4}>Currencies</Col>
           </Row>
         </Col>
-        <Col xs={6}>
+        <Col xs={12} md={6}>
           <Row>
             <Col xs={6} className="overflow-auto">
               Balance
@@ -31,14 +31,14 @@ const CustomRows = () => {
           key={key}
           style={{ lineHeight: "3.5" }}
         >
-          <Col xs={6}>
+          <Col xs={12} md={6}>
             <Row>
               <Col xs={4}>{item.label}</Col>
-              <Col xs={4}>{item.apr}</Col>
+              <Col xs={4}><span className="text-success">{item.apr}</span></Col>
               <Col xs={3}>{item.currencies}</Col>
             </Row>
           </Col>
-          <Col xs={6}>
+          <Col xs={12} md={6}>
             <Row>
               <Col xs={6} className="overflow-auto">
                 <div className="d-flex gap-2 align-items-center">

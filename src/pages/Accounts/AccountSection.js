@@ -273,7 +273,7 @@ const AccountSection = () => {
             <CardBody>
               <Row className="align-items-end g-0 margin1rem">
                 <Col xs={12}>
-                  <h2 className="mb-2 text-center border rounded-circle border-success border-4 p-5">$25,845</h2>
+                  <h3 className="mb-2 text-center border rounded-circle border-success border-4 p-5">$88,420,369</h3>
                 </Col>
               </Row>
               <Row className="align-items-end g-0 mt-5 pb-2">
