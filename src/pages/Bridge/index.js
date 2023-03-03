@@ -72,11 +72,12 @@ const Bridge = () => {
           </div>
           {/* --------------------Main Content------------------*/}
           <Row>
-            <h4 className="fs-16 mb-2">Bridge</h4>
-            <p className="lead">Convert your stablecoins into real world.</p>
+
             <Col xm={0} md={3}></Col>
             <Col xm={12} md={6}>
-              <Row className="align-items-end g-0  mt-4 mb-2">
+            <h4 className="fs-16 mb-2">Bridge</h4>
+            <p className="lead">Convert your stablecoins into real world.</p>
+              <Row className="align-items-end g-0  mt-5 mb-3">
                 <Col xs={6}>
                   <h5 className="card-title ">Source</h5>
                   <Select

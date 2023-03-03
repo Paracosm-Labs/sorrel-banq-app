@@ -33,17 +33,18 @@ const Vaults = () => {
       {/* --------------------Main Content------------------*/}
       <div className="page-content">
         <Container fluid>
-          <h4 className="fs-16 mb-2">Vaults</h4>
-          <p className="lead">
-            Crowdfund and Activate new features to enhance your Sarrel
-            Experience.
-          </p>
+
           <Row>
             <Col xm={0} md={3}></Col>
             <Col xm={12} md={6}>
+            <h4 className="fs-16 mb-2">Vaults</h4>
+            <p className="lead">
+              Crowdfund and Activate new features to enhance your Sarrel
+              Experience.
+            </p>
               <Nav
                 tabs
-                className="nav nav-tabs nav-tabs-custom nav-success nav-justified mb-3"
+                className="nav nav-tabs nav-tabs-custom nav-success nav-justified mb-3 mt-5"
               >
                 <NavItem>
                   <NavLink
