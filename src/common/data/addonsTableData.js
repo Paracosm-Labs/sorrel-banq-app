@@ -31,7 +31,7 @@ const addOnsTableData = [
     label: "Sorrel Family Office",
     details: "A service that provides families with comprehensive financial advice and planning. Our Family Office will be able to help families maximize the value of their investments and create a secure financial future.",
     imgPath: logo,
-    fundGoal: "$150,000",
+    fundGoal: "TBD",
     link: "https://docs.sorrelbanq.org/addons/core/[stub]",
   },
 ];
