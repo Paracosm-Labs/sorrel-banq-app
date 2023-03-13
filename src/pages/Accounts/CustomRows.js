@@ -9,9 +9,9 @@ const CustomRows = () => {
       <Row className="align-middle text-left mb-4" style={{ textAlign: "left" }}>
         <Col xs={12} md={6}>
           <Row>
-            <Col xs={4}>Account</Col>
-            <Col xs={3}>APR</Col>
-            <Col xs={4}>Currencies</Col>
+            <Col xs={4}>Currency</Col>
+            <Col xs={4}>APR</Col>
+
           </Row>
         </Col>
         <Col xs={12} md={6}>
@@ -35,7 +35,6 @@ const CustomRows = () => {
             <Row>
               <Col xs={4}>{item.label}</Col>
               <Col xs={4}><span className="text-success">{item.apr}</span></Col>
-              <Col xs={3}>{item.currencies}</Col>
             </Row>
           </Col>
           <Col xs={12} md={6}>

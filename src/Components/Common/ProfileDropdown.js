@@ -63,12 +63,12 @@ const ProfileDropdown = () => {
             <span className="align-middle">Settings</span>
           </DropdownItem>
           <DropdownItem>
-            <i className="mdi mdi-lock text-muted fs-16 align-middle me-1"></i>{" "}
-            <span className="align-middle">Lock screen</span>
-          </DropdownItem>
-          <DropdownItem>
             <i className="mdi mdi-lifebuoy text-muted fs-16 align-middle me-1"></i>{" "}
             <span className="align-middle">Help</span>
+          </DropdownItem>
+          <DropdownItem>
+            <i className="mdi mdi-lock text-muted fs-16 align-middle me-1"></i>{" "}
+            <span className="align-middle">Lock screen</span>
           </DropdownItem>
           <DropdownItem>
             <i className="mdi mdi-logout text-muted fs-16 align-middle me-1"></i>{" "}
